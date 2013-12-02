@@ -1,0 +1,118 @@
+body {
+    color: rgb(58, 58, 58);
+    // background: #eee;
+    background: #FFF;
+    margin: 0;
+    font-family: 'Helvetica', 'sans-serif';
+}
+
+* {
+    vertical-align: top;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+
+    .head {
+        height: 160px;
+        font-weight: 200;
+        margin-bottom: -30px;
+        color: rgb(58, 58, 58);
+        background: #FFF;
+        // color: #eee;
+        // background: rgb(58, 58, 58);
+        font-size: 90px;
+        text-align: center;
+        line-height: 160px;
+
+    }
+
+    .contact {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .tab {
+        color: #FFF;
+        width: 50%;
+        padding: 5px 0;
+        background: #acacac;
+        float: left;
+        text-align: center;
+
+    }
+
+}
+
+.resume {
+    line-height: 20px;
+
+    h3 {
+        font-variant: small-caps;
+        font-weight: 400;
+        margin: 40px 0 0;
+    }
+
+    hr {
+        margin-bottom: 20px;
+    }
+
+    p {
+        margin: 0 0 10px;
+    }
+
+    ul {
+        margin-bottom: 30px;
+    }
+
+    .right-align {
+        position: absolute;
+        right: 0;
+        display: inline-block;
+    }
+
+    .job, .location, .duration {
+        display: inline-block;
+        position: absolute;
+    }
+
+    .bmw.job {
+        left: 300px;
+    }
+
+    .bmw.location {
+        left: 570px;
+    }
+
+    .kelly.job {
+        left: 270px;
+    }
+
+    .kelly.location {
+        left: 560px;
+    }
+
+    .high-point.job {
+        left: 320px;
+    }
+
+    .high-point.location {
+        left: 570px;
+    }
+
+    .panera.job {
+        left: 400px;
+    }
+
+    .panera.location {
+        left: 650px;
+    }
+
+
+    .duration {
+        right: 0;
+    }
+}
