@@ -48,6 +48,13 @@ a {
 
 }
 
+.skill {
+    width: 250px;
+    height: 145px;
+    padding: 30px;
+    display: inline-block;
+}
+
 .resume {
     line-height: 20px;
 
@@ -118,5 +125,9 @@ a {
 
     .duration {
         right: 0;
+    }
+
+    .block {
+        display: block;
     }
 }
